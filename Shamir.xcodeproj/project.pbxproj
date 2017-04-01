@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		1F9B35BE1E8FE32900196321 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B35BD1E8FE32900196321 /* AppDelegate.swift */; };
-		1F9B35C01E8FE32900196321 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B35BF1E8FE32900196321 /* ViewController.swift */; };
 		1F9B35C31E8FE32900196321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B35C11E8FE32900196321 /* Main.storyboard */; };
 		1F9B35C51E8FE32900196321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B35C41E8FE32900196321 /* Assets.xcassets */; };
 		1F9B35C81E8FE32900196321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B35C61E8FE32900196321 /* LaunchScreen.storyboard */; };
+		1F9B35D11E8FE36C00196321 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B35CF1E8FE36C00196321 /* InputViewController.swift */; };
+		1F9B35D21E8FE36C00196321 /* InputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B35D01E8FE36C00196321 /* InputViewController.xib */; };
+		1F9B35D51E8FE52400196321 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B35D31E8FE52400196321 /* ResultsViewController.swift */; };
+		1F9B35D61E8FE52400196321 /* ResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B35D41E8FE52400196321 /* ResultsViewController.xib */; };
+		1F9B35D81E8FF22D00196321 /* ShamirAbonent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B35D71E8FF22D00196321 /* ShamirAbonent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F9B35BA1E8FE32900196321 /* Shamir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shamir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F9B35BD1E8FE32900196321 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F9B35BF1E8FE32900196321 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1F9B35C21E8FE32900196321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F9B35C41E8FE32900196321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F9B35C71E8FE32900196321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F9B35C91E8FE32900196321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9B35CF1E8FE36C00196321 /* InputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		1F9B35D01E8FE36C00196321 /* InputViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputViewController.xib; sourceTree = "<group>"; };
+		1F9B35D31E8FE52400196321 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		1F9B35D41E8FE52400196321 /* ResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultsViewController.xib; sourceTree = "<group>"; };
+		1F9B35D71E8FF22D00196321 /* ShamirAbonent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShamirAbonent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				1F9B35BD1E8FE32900196321 /* AppDelegate.swift */,
-				1F9B35BF1E8FE32900196321 /* ViewController.swift */,
 				1F9B35C11E8FE32900196321 /* Main.storyboard */,
 				1F9B35C41E8FE32900196321 /* Assets.xcassets */,
 				1F9B35C61E8FE32900196321 /* LaunchScreen.storyboard */,
 				1F9B35C91E8FE32900196321 /* Info.plist */,
+				1F9B35CF1E8FE36C00196321 /* InputViewController.swift */,
+				1F9B35D01E8FE36C00196321 /* InputViewController.xib */,
+				1F9B35D31E8FE52400196321 /* ResultsViewController.swift */,
+				1F9B35D41E8FE52400196321 /* ResultsViewController.xib */,
+				1F9B35D71E8FF22D00196321 /* ShamirAbonent.swift */,
 			);
 			path = Shamir;
 			sourceTree = "<group>";
@@ -126,7 +138,9 @@
 			files = (
 				1F9B35C81E8FE32900196321 /* LaunchScreen.storyboard in Resources */,
 				1F9B35C51E8FE32900196321 /* Assets.xcassets in Resources */,
+				1F9B35D61E8FE52400196321 /* ResultsViewController.xib in Resources */,
 				1F9B35C31E8FE32900196321 /* Main.storyboard in Resources */,
+				1F9B35D21E8FE36C00196321 /* InputViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F9B35C01E8FE32900196321 /* ViewController.swift in Sources */,
 				1F9B35BE1E8FE32900196321 /* AppDelegate.swift in Sources */,
+				1F9B35D81E8FF22D00196321 /* ShamirAbonent.swift in Sources */,
+				1F9B35D11E8FE36C00196321 /* InputViewController.swift in Sources */,
+				1F9B35D51E8FE52400196321 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
